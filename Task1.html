@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h2>Pictures</h2>
+        <div class="main-image">
+            <img id="current-image" src="image1.jpg" alt="Main Image">
+        </div>
+        <div class="controls">
+            <button id="prev-btn">&#10094;</button>
+            <button id="next-btn">&#10095;</button>
+        </div>
+        <div class="thumbnail-container">
+            <img src="compressed dir files.png" class="thumbnail" onclick="setImage(0)">
+            <img src="t2 instances.png" class="thumbnail" onclick="setImage(1)">
+            <img src="library 222.jpg" class="thumbnail" onclick="setImage(2)">
+            <img src="wallp.jpg" class="thumbnail" onclick="setImage(3)">
+
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
